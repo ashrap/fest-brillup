@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --hoved-farge: rgb(218, 165, 32);
+  --tekst-farge: #fff;
+  --bakgrunn-farge: rgb(0, 0, 51);
+  --stor-font: 5rem;
+  --h2-font: 2.25rem;
+  --p-font: 0.9rem;
+}
+body {
+  color: var(--tekst-farge);
+
+  background: var(--bakgrunn-farge);
+}
+.brillup {
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+  border: 0.1rem rgb(218, 165, 32);
+  border-style: solid;
+}
+.brillup p {
+  margin: 0.3rem;
+  font-size: 1.5rem;
+}
+.bestill {
+  width: 7rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+.goldenbtn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(218, 165, 32);
+  color: #fff;
+  width: 100%;
+}
+
+.goldenbtn:hover {
+  transform: scale(1.2) translateY(10px);
+  transition: 0.4s;
+}
